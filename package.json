@@ -1,0 +1,18 @@
+{
+    "name": "express-dust",
+    "description": "Express.js view engine adapter for Dust template engine",
+    "version": "0.0.1",
+    "author": {
+        "name": "Zoltan Kalmar",
+        "email": "kalmiz@gmail.com",
+        "url": "http://kalmi.eu"
+    },
+    "keywords": [
+        "dust",
+        "express",
+        "template engine"
+    ],
+    "dependencies": {
+        "dust": "latest"
+    }
+}
