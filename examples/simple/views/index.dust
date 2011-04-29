@@ -1,16 +1,14 @@
 {>layout/}
 
 {<content}
-
         {?name}
         {#hello name=name/}
         {:else}
         <h1>{SITE_TITLE} Running at {SITE_URL}.</h1>
         {/name}
-        <form action="/sayhello">
+        <form method="GET" action="/sayhello">
             <label for="name">Name:</label>
             <input type="text" name="name" value="{name}" />
             <input type="submit" />
         </form>
-    
 {/content}
