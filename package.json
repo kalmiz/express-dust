@@ -1,7 +1,7 @@
 {
     "name": "express-dust",
     "description": "Express.js view engine adapter for Dust template engine",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Zoltan Kalmar",
         "email": "kalmiz@gmail.com",
@@ -13,6 +13,7 @@
         "template engine"
     ],
     "dependencies": {
-        "dust": "latest"
+        "dust": "latest",
+        "express": "latest"
     }
 }
